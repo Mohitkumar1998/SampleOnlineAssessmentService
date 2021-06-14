@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Assessment - Home Page</title>
+<style type="text/css">
+	body {
+		background-color: rgb(0,255,255);
+	}
+</style>
+</head>
+<body>
+<h1>Welcome to Online Assessment</h1>
+<h2>Login</h2>
+<br>
+<form method="POST" action="/login">
+	<label>Email Id:</label>
+	<input type="email" name="username" required="required"/><br>
+	<label>Password</label>
+	<input type="password" name="password" required="required"/><br>
+	<input type="submit" name="submit" value="Login"/><br><br>
+	<label>New User ?</label> <a href="http://localhost:8085/register">register here</a>
+</form>
+</body>
+</html>

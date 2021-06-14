@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<style type="text/css">
+	body {
+		background-color: rgb(0,255,255);
+	}
+</style>
+</head>
+<body>
+<h1>Registration</h1>
+<form method="POST" action="/registeration/do">
+	First Name : <input type="text" name="firstName" pattern="[A-Za-z]{}" minlength="1"/><br><br>
+	Last Name : <input type="text" name="lastName" pattern="[A-Za-z]{}" minlength="1"/><br><br>
+	Email : <input type="email" name="email"/><br><br>
+	Password  : <input type="password" name="password" minlength="8"/><br><br>
+	<input type="submit" name="submit" value="Register"/>
+</form>
+</body>
+</html>
